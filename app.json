@@ -1,6 +1,7 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/play/play",
     "pages/card/card",
     "pages/user/user",
     "pages/test/test",
@@ -24,10 +25,10 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/list/list",
+        "pagePath": "pages/play/play",
         "iconPath": "./images/i22.png",
         "selectedIconPath": "./images/i21.png",
-        "text": "列表"
+        "text": "扭一扭"
       },
       {
         "pagePath": "pages/user/user",
