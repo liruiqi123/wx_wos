@@ -74,3 +74,158 @@ box-shadow: inset 3px 3px 3px #fff2af;*/
   height: 140rpx;
   width: 130rpx;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top {
+  display: block;
+  width: 750rpx;
+  height: 234rpx;
+}
+
+
+.l3 {
+  width: 690rpx;
+  height: 104rpx;
+  position: relative;
+  background-color: #e46b06;
+  border-radius: 10rpx;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  overflow: hidden;
+}
+
+.l3 .tou {
+  display: block;
+  width: 233rpx;
+  height: 104rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.l3 .box {
+  width: 457rpx;
+  height: 104rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  white-space: nowrap;
+}
+
+.l3 .box image {
+  display: inline-block;
+  width: 77rpx;
+  height: 77rpx;
+  margin-top: 15rpx;
+  margin-right: 30rpx;
+  margin-left: 30rpx;
+}
+
+
+
+.touch {
+  display: block;
+  width: 97rpx;
+  height: 77rpx;
+  opacity: 0.2;
+  position: absolute;
+  right: 10rpx;
+  top: 15rpx;
+  z-index: 30
+}
+.l3 .box image:last-child{margin-right: 150rpx;}
+
+
+
+
+
+
+/* pages/list/list.wxss */
+
+page {
+  background-color: #f1b927;
+  background-image: url(http://wechatpx.oss-cn-beijing.aliyuncs.com/tree_01.png);
+  background-size: 750rpx 391rpx;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.item {
+  width: 690rpx;
+  height: 185rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+  margin: 0 auto;
+  color: #fff;
+  line-height: 185rpx;
+  text-align: center;
+  font-size: 40rpx;
+  background-image: url(http://wechatpx.oss-cn-beijing.aliyuncs.com/test_03.png);
+  background-size: 690rpx 185rpx;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30rpx;
+  position: relative;
+  margin-top: 30rpx;
+}
+
+.item .mini-icon {
+  display: inline-block;
+  width: 29rpx;
+  height: 36rpx;
+  margin-bottom: -5rpx;
+}
+
+.item:first-child {
+  margin-top: 290rpx;
+}
+
+.item .lock-icon {
+  width: 47rpx;
+  height: 59rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -23.5rpx;
+  top: 60rpx;
+  z-index: 20;
+}
+
+.item .hui {
+  display: block;
+  width: 690rpx;
+  height: 185rpx;
+  border-radius: 10rpx;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+
+

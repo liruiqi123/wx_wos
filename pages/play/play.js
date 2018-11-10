@@ -2,6 +2,8 @@
 //获取应用实例
 var app = getApp()
 Page({
+
+
   data: {
     circleList: [],//圆点数组
     awardList: [],//奖品数组
@@ -21,6 +23,25 @@ Page({
       '../../images/play/7.jpg',
       '../../images/play/8.jpg',
     ],//奖品图片数组
+
+    list: [
+      {
+        titt: '测试题名称题名称',
+        lock: false
+      },
+      {
+        titt: '测试题名称题名称',
+        lock: false
+      },
+
+      {
+        titt: '测试题名称题名称',
+        lock: true
+      },
+    ]
+
+
+
   },
 
   onLoad: function () {
