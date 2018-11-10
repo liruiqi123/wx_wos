@@ -14,14 +14,14 @@ Page({
     indexSelect: 0,//被选中的奖品index
     isRunning: false,//是否正在抽奖
     imageAward: [
-      '../../images/play/1.jpg',
-      '../../images/play/2.jpg',
-      '../../images/play/3.jpg',
-      '../../images/play/4.jpg',
-      '../../images/play/5.jpg',
-      '../../images/play/6.jpg',
-      '../../images/play/7.jpg',
-      '../../images/play/8.jpg',
+      'https://www.niftydose.cn/Images/wos/play/choujiang/1.png',
+      'https://www.niftydose.cn/Images/wos/play/choujiang/2.png',
+      'https://www.niftydose.cn/Images/wos/play/choujiang/3.png',
+      'https://www.niftydose.cn/Images/wos/play/choujiang/4.png',
+      'https://www.niftydose.cn/Images/wos/play/choujiang/5.png',
+      'https://www.niftydose.cn/Images/wos/play/choujiang/6.png',
+      'https://www.niftydose.cn/Images/wos/play/choujiang/7.png',
+      'https://www.niftydose.cn/Images/wos/play/choujiang/8.png',
     ],//奖品图片数组
 
     list: [

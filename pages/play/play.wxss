@@ -38,7 +38,7 @@ box-shadow: inset 3px 3px 3px #fff2af;*/
   position: absolute;
   height: 150rpx;
   width: 166.6666rpx;
-  background-color: #f5f0fc;
+  background-color: #d3201a;
   border-radius: 15rpx;
   box-shadow: 0 5px 0 #d87fde;
 }

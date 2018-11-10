@@ -63,6 +63,6 @@
 
 <!-- 心灵图鉴、微信公众号 -->
 <view class='l5'>
-  <image src='/images/pic_35.png' class='a1'></image>
-  <image src='/images/pic_37.png' class='a2'></image>
+  <image src='https://www.niftydose.cn/Images//wos/index/playafter/1.png' class='a1'></image>
+  <image src='https://www.niftydose.cn/Images//wos/index/playafter/2.png' class='a2'></image>
 </view>
