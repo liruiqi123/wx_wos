@@ -5,7 +5,8 @@
     "pages/card/card",
     "pages/user/user",
     "pages/test/test",
-    "pages/list/list"
+    "pages/list/list",
+    "pages/activety/activety"
   ],
   "window":{
     "backgroundTextStyle":"light",

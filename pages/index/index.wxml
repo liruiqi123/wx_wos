@@ -1,10 +1,10 @@
 <!-- <image src='/images/pic_01.png' class="top"></image> -->
 
 
-<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
+<swiper class="swiper" circular = "true" indicator-dots="true" autoplay="true" interval="5000" duration="1000" bindchange="swiperChange">  
       <block wx:for="{{movies}}" wx:key="url" wx:for-index="index">  
         <swiper-item>  
-          <image src="{{item.url}}" bindtap="lunbotu" class="slide-image" mode="aspectFill"/>  
+          <image src="{{item.url}}" bindtap="lunbotu" class="slide-image" mode="aspectFill" bindtap="swipclick"/>  
         </swiper-item>  
       </block>  
 </swiper> 
