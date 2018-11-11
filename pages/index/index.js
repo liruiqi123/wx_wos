@@ -32,9 +32,12 @@ Page({
   },
 
   //图片点击事件
-  toplay: function (e) {//点击图片触发事件
-    wx.switchTab({
-      url: '../../pages/play/play',
+  toplayActivety: function (e) {//点击图片触发事件
+
+    console.log(e.currentTarget.dataset.id);
+
+    wx.navigateTo({
+      url: '../../pages/playActivety/playActivety',
     })
   },
 

@@ -39,9 +39,9 @@
 </view>
 <!-- 捕手、运势、百科 -->
 <view class='l4'>
-  <image src='https://www.niftydose.cn/Images//wos/index/play/play1.png' class='a1' bindtap="toplay"></image>
-  <image src='https://www.niftydose.cn/Images//wos/index/play/play2.png' class='a2' bindtap="toplay"></image>
-  <image src='https://www.niftydose.cn/Images//wos/index/play/play3.png' class='a3' bindtap="toplay"></image>
+  <image src='https://www.niftydose.cn/Images//wos/index/play/play1.png' class='a1' bindtap="toplayActivety" data-id='1'></image>
+  <image src='https://www.niftydose.cn/Images//wos/index/play/play2.png' class='a2' bindtap="toplayActivety" data-id='2'></image>
+  <image src='https://www.niftydose.cn/Images//wos/index/play/play3.png' class='a3' bindtap="toplayActivety" data-id='3'></image>
 </view>
 <!-- 好友列表 -->
 <view class='l3'>

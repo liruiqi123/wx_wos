@@ -6,7 +6,8 @@
     "pages/user/user",
     "pages/test/test",
     "pages/list/list",
-    "pages/activety/activety"
+    "pages/activety/activety",
+    "pages/playActivety/playActivety"
   ],
   "window":{
     "backgroundTextStyle":"light",

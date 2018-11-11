@@ -26,7 +26,7 @@ Page({
 
     list: [
       {
-        titt: '测试题名称题名称',
+        titt: '个性化的测试结果',
         lock: false
       },
       {
