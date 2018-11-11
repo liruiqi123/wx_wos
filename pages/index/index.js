@@ -18,6 +18,7 @@ Page({
   },
 
 
+  //轮播图事件
   swiperChange: function (e) {
     this.setData({
       swiperCurrent: e.detail.current
@@ -29,5 +30,35 @@ Page({
       url: '../../pages/activety/activety',
     })
   },
+
+  //图片点击事件
+  toplay: function (e) {//点击图片触发事件
+    wx.switchTab({
+      url: '../../pages/play/play',
+    })
+  },
+
+  //图片点击事件
+  toyugao: function (e) {//点击图片触发事件
+    wx.navigateTo({
+      url: '../../pages/activety/activety',
+    })
+  },
+
+  //图片点击事件
+  tokefu: function (e) {//点击图片触发事件
+    wx.navigateTo({
+      url: '../../pages/activety/activety',
+    })
+  },
+
+
+  //点击跳转到图鉴list
+  toList: function (e) {//点击图片触发事件
+    wx.navigateTo({
+      url: '../../pages/list/list',
+    })
+  },
+
   
 })

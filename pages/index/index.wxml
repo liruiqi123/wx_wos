@@ -39,9 +39,9 @@
 </view>
 <!-- 捕手、运势、百科 -->
 <view class='l4'>
-  <image src='https://www.niftydose.cn/Images//wos/index/play/play1.png' class='a1'></image>
-  <image src='https://www.niftydose.cn/Images//wos/index/play/play2.png' class='a2'></image>
-  <image src='https://www.niftydose.cn/Images//wos/index/play/play3.png' class='a3'></image>
+  <image src='https://www.niftydose.cn/Images//wos/index/play/play1.png' class='a1' bindtap="toplay"></image>
+  <image src='https://www.niftydose.cn/Images//wos/index/play/play2.png' class='a2' bindtap="toplay"></image>
+  <image src='https://www.niftydose.cn/Images//wos/index/play/play3.png' class='a3' bindtap="toplay"></image>
 </view>
 <!-- 好友列表 -->
 <view class='l3'>
@@ -57,12 +57,12 @@
 </view>
 
 
-<view class='l6'>
+<view class='l6' bindtap='toList'>
 </view>
 
 
 <!-- 心灵图鉴、微信公众号 -->
 <view class='l5'>
-  <image src='https://www.niftydose.cn/Images//wos/index/playafter/1.png' class='a1'></image>
-  <image src='https://www.niftydose.cn/Images//wos/index/playafter/2.png' class='a2'></image>
+  <image src='https://www.niftydose.cn/Images//wos/index/playafter/1.png' class='a1' bindtap="toyugao"></image>
+  <image src='https://www.niftydose.cn/Images//wos/index/playafter/2.png' class='a2' bindtap="tokefu"></image>
 </view>
