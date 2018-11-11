@@ -12,6 +12,18 @@
   </view>
 </view>
 
+
+
+
+
+
+
+<view class="page" style="background-color:{{pageBackgroundColor}}" >
+<button bindtap="changeColor" hover-class="none">点击修改背景颜色</button>
+</view>
+
+
+
 <view class='l3'>
   <image src='/images/pic_04.png' class='tou'></image>
   <image src='/images/touch.png' class='touch'></image>

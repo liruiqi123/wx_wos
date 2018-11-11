@@ -2,8 +2,6 @@
 //获取应用实例
 var app = getApp()
 Page({
-
-
   data: {
     circleList: [],//圆点数组
     awardList: [],//奖品数组
@@ -23,6 +21,9 @@ Page({
       'https://www.niftydose.cn/Images/wos/play/choujiang/7.png',
       'https://www.niftydose.cn/Images/wos/play/choujiang/8.png',
     ],//奖品图片数组
+
+    // 自定义page对象CSS样式对象
+    pageBackgroundColor: '#5cb85c',
 
     list: [
       {
@@ -167,5 +168,19 @@ Page({
         indexSelect: indexSelect
       })
     }, (200 + i))
+  },
+
+
+
+
+
+  // 改变背景颜色
+  changeColor: function () {
+    var bgColor = this.data.pageBackgroundColor == 'red' ? 'green' : 'red';
+    // 设置背景颜色数据
+    this.setData({
+      pageBackgroundColor: bgColor
+    });
   }
+
 })
