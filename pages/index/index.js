@@ -35,10 +35,26 @@ Page({
   toplayActivety: function (e) {//点击图片触发事件
 
     console.log(e.currentTarget.dataset.id);
+    
+    var indexId = e.currentTarget.dataset.id;
 
-    wx.navigateTo({
-      url: '../../pages/playActivety/playActivety',
-    })
+    var playUrl ='';
+
+    if (indexId == 1) {
+      wx.navigateTo({
+        url: '../../pages/playActivety1/playActivety1',
+      })
+    };
+
+    if (indexId == 2) {
+      playUrl = '../../pages/playActivety1/playActivety1'
+    };
+
+    if (indexId == 3) {
+      playUrl = '../../pages/playActivety1/playActivety1'
+    };
+
+
   },
 
   //图片点击事件

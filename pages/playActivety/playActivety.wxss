@@ -178,7 +178,6 @@ page {
 
 
 pageTest {
-   background-color: #f1b927;
   display: block;
   min-height: 100%;
   width: 100%;
