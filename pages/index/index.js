@@ -40,27 +40,31 @@ Page({
 
     var playUrl ='';
 
-    if (indexId == 1) {
-      wx.navigateTo({
-        url: '../../pages/playActivety1/playActivety1',
-      })
-    };
+    if (indexId == '1' ) {
+      playUrl = '../../pages/playActivety1/playActivety1';
+    }
 
-    if (indexId == 2) {
-      playUrl = '../../pages/playActivety1/playActivety1'
-    };
+    if (indexId == '2' ) {
+      playUrl = '../../pages/playActivety2/playActivety2';
+    }
 
-    if (indexId == 3) {
-      playUrl = '../../pages/playActivety1/playActivety1'
-    };
+    if (indexId == '3' ) {
+      playUrl = '../../pages/playActivety3/playActivety3';
+    }
 
+
+    console.log(playUrl);
+
+    wx.navigateTo({
+      url: playUrl,
+    })
 
   },
 
   //图片点击事件
   toyugao: function (e) {//点击图片触发事件
     wx.navigateTo({
-      url: '../../pages/activety/activety',
+      url: playUrl,
     })
   },
 
