@@ -22,13 +22,14 @@ page {
 
 .slide-image {
   display: block;
-  width: 529rpx;
-  height: 721rpx;
+  width: 700rpx;
+  height: 1000rpx;
   margin: 0 auto;
   margin-top: 60rpx;
   border-radius: 10rpx;
 }
 
 swiper {
-  height: 781rpx;
+  height: 1000rpx;
+  margin-top: 80rpx;
 }

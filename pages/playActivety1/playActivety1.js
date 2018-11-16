@@ -12,14 +12,14 @@ Page({
     indexSelect: 0,//被选中的奖品index
     isRunning: false,//是否正在抽奖
     imageAward: [
-      'https://www.niftydose.cn/Images/wos/play/choujiang/1.png',
-      'https://www.niftydose.cn/Images/wos/play/choujiang/2.png',
-      'https://www.niftydose.cn/Images/wos/play/choujiang/3.png',
-      'https://www.niftydose.cn/Images/wos/play/choujiang/4.png',
-      'https://www.niftydose.cn/Images/wos/play/choujiang/5.png',
-      'https://www.niftydose.cn/Images/wos/play/choujiang/6.png',
-      'https://www.niftydose.cn/Images/wos/play/choujiang/7.png',
-      'https://www.niftydose.cn/Images/wos/play/choujiang/8.png',
+      'https://www.niftydose.cn/Images/wos/playActivety1/choujiang/1.png',
+      'https://www.niftydose.cn/Images/wos/playActivety1/choujiang/2.png',
+      'https://www.niftydose.cn/Images/wos/playActivety1/choujiang/3.png',
+      'https://www.niftydose.cn/Images/wos/playActivety1/choujiang/4.png',
+      'https://www.niftydose.cn/Images/wos/playActivety1/choujiang/5.png',
+      'https://www.niftydose.cn/Images/wos/playActivety1/choujiang/6.png',
+      'https://www.niftydose.cn/Images/wos/playActivety1/choujiang/7.png',
+      'https://www.niftydose.cn/Images/wos/playActivety1/choujiang/8.png',
     ],//奖品图片数组
 
     // 自定义page对象CSS样式对象
